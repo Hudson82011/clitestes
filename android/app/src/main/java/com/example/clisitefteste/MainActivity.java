@@ -287,7 +287,7 @@ public class MainActivity extends FlutterActivity {
             //  "[TipoPinPad=ANDROID_USB;TipoComunicacaoExterna=COMNECT;]");
 
             //clisitef.setDebug(true);
-            clisitef.configure("192.168.10.245", "00000000", terminal,
+            clisitef.configure(ip, "00000000", terminal,
                     "[TipoPinPad=ANDROID_USB;]");
 
         }catch (Exception err){
